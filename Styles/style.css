@@ -178,9 +178,6 @@ img {vertical-align: middle;}
   margin-top: 68px;
 }
 
-
-
-
 .dot {
   cursor: pointer;
   height: 15px;
@@ -213,20 +210,18 @@ img {vertical-align: middle;}
 }
 #fourth {
   height: 100vh;
-  background-image: url("../Assets/LkX7VqSaEw9wpUKYqdXbp.jpg");
+  background-image: url("https://pbs.twimg.com/media/Dheb0sGUEAAsBTf.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  opacity: 0.7;
 
 }
 #about{
   font-family: 'Metal Mania', cursive;
   text-align: center;
   color:red;
-  font-size: 20px;
-  padding: 400px;
+  font-size: 30px;
 }
 
 
