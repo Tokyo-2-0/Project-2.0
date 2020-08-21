@@ -9,22 +9,74 @@
   integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
   crossorigin="anonymous"></script>
   <link href="https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap" rel="stylesheet">
-
 </head>
 <body>  
     
-    <div id='third'></div>
-    </div>  
+<div id='third'>
+    
     <div class="header">
-        <a class="active" href="index.html">Home</a>
+        <a href="index.html">Home</a>
         <a class="history" href="history.html">Metal history</a>
         <a class="music" href="player.html" target="_blank">Music Player</a>
         <a class="purchase" href="https://www.metal-shop.eu" target="_blank">purchase</a>
         <div class="header-right">
-            <a href="Log In page.html">Log In</a>
-            <a href="about.html">About Us. </a>
+            <a href="Log In page.html">Sign In</a>
+            <a href="#">Sign Up</a>
+            <a href="About us.html">About Us.</a>
         </div>
     </div>
+    <div class="slideshow-container">
+
+        <div class="mySlides fade">
+        <img src="../Assets/Screenshot (24).png" style="width:100%">
+        </div>
+        <div class="mySlides fade">
+          <img src="../Assets/Screenshot (41).png" style="width:100%">
+        </div>
+        <div class="mySlides fade">
+            <img src="../Assets/Screenshot (34).png" style="width:100%">
+        </div>
+        <div class="mySlides fade">
+            <img src="../Assets/Screenshot (28).png" style="width:100%">
+        </div>
+        <div class="mySlides fade">
+            <img src="../Assets/Screenshot (36).png" style="width:100%">
+        </div>
+        
+     </div>
+        <br>
+        <div style="text-align:center">
+            <span class="dot  fade"></span> 
+            <span class="dot  fade"></span> 
+            <span class="dot  fade"></span>
+            <span class="dot fade"></span> 
+            <span class="dot fade"></span>   
+          </div>
+          
+        <script>
+            $(document).ready(function(){
+ 
+    var slideIndex = 0;
+    showSlides();
+            function showSlides() {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("dot");
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";  
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) {slideIndex = 1}    
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex-1].style.display = "block";  
+            dots[slideIndex-1].className += " active";
+            setTimeout(showSlides, 3000)
+            }
+});
+</script>
+</div>  
     
 </body>
 </html>
