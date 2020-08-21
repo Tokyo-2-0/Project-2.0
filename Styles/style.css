@@ -1,4 +1,7 @@
-#slide{
+body{
+  margin: 0px;
+}
+#first{
   height: 100vh;
   background-image: url("https://wallpaperset.com/w/full/3/5/8/67290.jpg");
   background-position: center;
@@ -6,82 +9,28 @@
   background-size: cover;
   position: relative;
 }
+#second{
+  height: 100vh;
+  background-image: url("https://images4.alphacoders.com/242/242406.jpg");
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
 .enter{
-  font-family: serif;
+  font-family: 'Metal Mania', cursive;
   text-align: center;
   cursor: pointer;
   position: absolute;
+  color: whitesmoke;
   top: 80%;
   left: 45%;
   font-size: 70px;
-  animation: text-flicker 2s linear forwards;
+  background-color: transparent;
+  border: none;
   animation: letter-flicker 3s linear infinite;
+  filter: brightness(500%);
 }
-body{
-  margin: 0px;
-}
-@keyframes text-flicker {
-  2% { 
-    color: rgb(9, 6, 49);
-    text-shadow: 0 0 15px rgb(226, 155, 23));
-  }
-  3% {
-    color: rgba(120, 0, 50, .5);
-    text-shadow: none;
-  }
-  6% {
-    color: rgb(230, 0, 120);
-    text-shadow: 0 0 15px rgb(230, 0, 120);
-  }
-  9% {
-    color: rgba(120, 0, 50, .5);
-    text-shadow: none;
-  }
-  11% {
-    color: rgb(230, 0, 120);
-    text-shadow: 0 0 15px rgb(230, 0, 120);
-  }
-  14% {
-    color: rgba(120, 0, 50, .5);
-    text-shadow: none;
-  }
-  18% {
-    color: rgb(230, 0, 120);
-    text-shadow: 0 0 15px rgb(230, 0, 120);
-  }
-  32% {
-    color: rgb(230, 0, 120);
-    text-shadow: 0 0 15px rgb(230, 0, 120);
-  }
-  33% {
-    color: rgba(120, 0, 50, .5);
-    text-shadow: none;
-  }
-  37% {
-    color: rgb(230, 0, 120);
-    text-shadow: 0 0 15px rgb(230, 0, 120);
-  }
-  39% {
-    color: rgba(120, 0, 50, .5);
-    text-shadow: none;
-  }
-  43% {
-    color: rgb(230, 0, 120);
-    text-shadow: 0 0 15px rgb(230, 0, 120);
-  }
-  46% {
-    color: rgba(120, 0, 50, .5);
-    text-shadow: none;
-  }
-  47% {
-    color: rgb(230, 0, 120);
-    text-shadow: 0 0 15px rgb(230, 0, 120);
-  }
-  100% {
-    color: rgb(230, 0, 120);
-    text-shadow: 0 0 15px rgb(230, 0, 120);
-  }
-}
+
 
 @keyframes letter-flicker {
     2% { 
@@ -136,6 +85,86 @@ body{
     color: rgb(71, 6, 6);
     text-shadow: 0 0 15px rgb(46, 4, 26);
   }
+}
+
+#login{
+  position: absolute;
+  top: 60%;
+  left: 45.5%;
+  text-align: center;
+}
+p{
+  font-family: 'Metal Mania', cursive;
+  text-align: center;
+  color: whitesmoke;
+  font-size: 40px;
+  border: none;
+}
+#loger1{
+  border: none;
+  border-style: solid ;
+  padding: 7px;
+}
+#loger2{
+  border: none;
+  border-style: solid ;
+  padding: 7px;
+}
+#click{
+  font-family: 'Metal Mania', cursive;
+  border: none;
+  border-style: solid;
+  font-stretch: wider;
+  font-size: 30px;
+}
+.click{
+  font-family: 'Metal Mania', cursive;
+  text-align: right;
+  cursor: pointer;
+  position: fixed  ;
+  color: whitesmoke;
+  right: 2%;
+  font-size: 70px;
+  background-color: transparent;
+  border: none;
+  animation: letter-flicker 3s linear infinite;
+  filter: brightness(500%);
+}
+#third{
+  height: 100vh;
+  background-image: url("http://getwallpapers.com/wallpaper/full/5/7/8/453397.jpg");
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+.header {
+  font-family: 'Metal Mania', cursive;
+  overflow: hidden;
+  background-color: transparent;
+  padding: 20px 10px;
+  position: fixed; 
+  top: 0; 
+  width: 100%;
+}
+
+.header a {
+  float: left;
+  color: whitesmoke;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 30px; 
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+.header a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.header-right {
+  float: right;
 }
 
 
