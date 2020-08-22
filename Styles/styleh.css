@@ -1,0 +1,139 @@
+html { 
+    background:  no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-color: black;
+  }
+
+  .container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ #history{
+     background:url(https://data.whicdn.com/images/119154503/original.gif) ;
+     background-size: cover;
+     -webkit-background-clip: text;
+     color: transparent ;
+     font-size: 100px;
+     font-weight: 800;
+     font-family: 'Metal Mania', cursive;
+     position: absolute;
+     top: 20px;
+     
+
+ }
+
+.background{
+    min-height: 100%;
+    min-width: 1024px;
+    opacity: 0.7 ;  
+    /* Set up proportionate scaling */
+    width: 100%;
+    height: auto;
+      
+    /* Set up positioning */
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+  
+  @media screen and (max-width: 1024px) { /* Specific to this particular image */
+    img.bg {
+      left: 50%;
+      margin-left: -512px;   /* 50% */
+    }}
+
+    #para{
+      font-size:18px;
+      color: white;
+      position: relative;
+      top:-500px ;
+      left: -20px;
+      text-align: justify;
+      font-family: 'Metal Mania', cursive;
+    }
+    .curve{
+      width: 200px; 
+            height: 200px; 
+            border-radius: 50%; 
+            text-align: center; 
+            font-size: 30px; 
+            float: left; 
+            font-weight: bold; 
+              
+            /* Change the shape according 
+                to the image */ 
+            shape-outside: circle(); 
+            background-color: Green; 
+            color: white; 
+            position: relative;
+            margin: 1cm;
+            top:-520px;
+    }
+    
+
+  #para2{
+    font-size:18px;
+    color: white;
+    position: relative;
+    top:-500px ;
+    left: -20px;
+    text-align: justify;
+    font-family: 'Metal Mania', cursive;
+  }
+  .curve2{
+    width: 200px; 
+          height: 200px; 
+          border-radius: 50%; 
+          text-align: center; 
+          font-size: 30px; 
+          float: left; 
+          font-weight: bold; 
+            
+          /* Change the shape according 
+              to the image */ 
+          shape-outside: circle(); 
+          background-color: Green; 
+          color: white; 
+          position: relative;
+          margin: 1cm;
+          top:-520px;
+  }
+
+  #para3{
+    font-size:18px;
+    color: white;
+    position: relative;
+    top:-500px ;
+    left: -550px;
+    width: 100vw;
+    font-family: 'Metal Mania', cursive;
+  }
+  .curve3{
+    width: 200px; 
+          height: 200px; 
+          border-radius: 50%; 
+          text-align: center; 
+          font-size: 30px; 
+          float: left; 
+          font-weight: bold; 
+            
+          /* Change the shape according 
+              to the image */ 
+          shape-outside: circle(); 
+          background-color: Green; 
+          color: white; 
+          position: relative;
+          margin: 1cm;
+          top:-520px;
+          left:-530px;
+  }
+
+
+  #article3 {
+    width: auto;
+  }
