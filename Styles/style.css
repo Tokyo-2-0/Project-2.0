@@ -131,7 +131,8 @@ p{
   filter: brightness(500%);
 }
 #third{
-  height: 100vh;
+
+  height: 93.2vh;
   background-image: url("http://getwallpapers.com/wallpaper/full/5/7/8/453397.jpg");
   background-position: center;
   background-size: cover;
@@ -140,12 +141,13 @@ p{
 .header {
   font-family: 'Metal Mania', cursive;
   overflow: hidden;
-  background-color: transparent;
-  padding: 20px 10px;
-  position: fixed; 
+  background-image: url('https://wallpapersprinted.com/download/2/dark_gothic_lion-wallpaper-2560x1600.jpg');
+  background-color: rgb(27, 27, 27);
+  padding: 10px 0px;
+  position: fixed;  
   top: 0; 
   width: 100%;
-}
+  }
 
 .header a {
   float: left;
@@ -155,7 +157,7 @@ p{
   text-decoration: none;
   font-size: 30px; 
   line-height: 25px;
-  border-radius: 4px;
+  border-radius: 5px;
 }
 
 .header a:hover {
@@ -166,6 +168,80 @@ p{
 .header-right {
   float: right;
 }
+
+img {vertical-align: middle;}
+
+.slideshow-container {
+  max-width: 1500px;
+  position: relative;
+  margin: auto;
+  margin-top: 68px;
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: 0.4} 
+  to {opacity: 1}
+}
+@keyframes fade {
+  from {opacity: 0.4} 
+  to {opacity: 1}
+}
+.active {
+  background-color: #717171;
+}
+#fourth {
+  height: 100vh;
+  background-image: url("https://pbs.twimg.com/media/Dheb0sGUEAAsBTf.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+
+}
+#about{
+  font-family: 'Metal Mania', cursive;
+  text-align: center;
+  color:red;
+  font-size: 30px;
+  position: relative;
+}
+#img1{
+  border-radius: 50%;
+  margin-top: 170px;
+  margin-bottom: 170px;
+  margin-left: 170px;
+  position: relative;
+}
+#img2{
+  border-radius: 50%;
+  margin-top: 170px;
+  margin-bottom: 170px;
+  margin-left: 50%;
+  position: relative;
+}
+
+
+
+
 
 
 
